@@ -11,7 +11,7 @@
 
   <button type="button" @click="state.count++">count is: {{ state.count }}</button>
   <p>
-   55555 Edit1www1sssx1
+   7777 Edit1www1sssx1
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
 </template>
