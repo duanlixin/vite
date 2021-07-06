@@ -14,4 +14,4 @@ pm2 start dev
 # 启动开发模式
 # pm2 start npm --name dev -- run dev
 # 启动hooks服务
-# pm2 start app.js --name="hooks"
+# pm2 start handleHooks.js --name="hooks"
