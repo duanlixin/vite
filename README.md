@@ -1,23 +1,26 @@
 # hooks 配置
 
 配置github
-1.
+
 ![alt](https://user-images.githubusercontent.com/1913044/124536590-d22c5900-de4a-11eb-99db-9c48cc75dc5c.png)
 
-2.
 ![alt](https://user-images.githubusercontent.com/1913044/124536839-52eb5500-de4b-11eb-8817-99d28e293cf3.png)
 
-3.
 ![alt](https://user-images.githubusercontent.com/1913044/124536999-9fcf2b80-de4b-11eb-81e2-38979a9ca951.png)
 
 开发地址
+
 http://ip:3000/
 
 打包后地址
+
 http://ip/
 
 webhooks地址
+
 http://ip:9000/
+
+-------------
 
 ## nginx 配置
 
