@@ -34,6 +34,8 @@ http://ip:9000/
         index  index.html index.htm;
     }
 
+    /usr/local/nginx/nginx -s reload
+
 ## host 配置git
 
     # /etc/host
