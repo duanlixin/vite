@@ -1,7 +1,7 @@
 
 pm2 stop dev
 
-output=`git pull`
+output=`git pull origin develop `
 
 rm -rf node_modules
 
