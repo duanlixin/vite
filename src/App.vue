@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <div class="item" @click="go">返回首页</div>
+  <div class="item" @click="go('/')">返回首页</div>
   <div class="item" @click="go('random')">随机数组</div>
   <router-view />
 </div>
