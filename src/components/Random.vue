@@ -4,21 +4,27 @@
     <div class="code">数组值</div>
     <div class="code">{{ array }}</div>
     <button class="btn" @click="random">随机输出数组</button>
+    <button class="btn" @click="reset">恢复数组初值</button>
   </div>
 </template>
 
 <script>
+const defaultArray = [1, 2, 3, 4];
+
 export default {
   name: "Randow",
   data() {
     return {
-      array: [1, 2, 3, 4]
+      array: [...defaultArray]
     };
   },
 
   methods: {
     random() {
       return this.array.sort(() => 0.5 - Math.random());
+    },
+    reset() {
+      this.array = [...defaultArray];
     },
   },
 };

@@ -1,16 +1,23 @@
 <template>
 <div id="app">
-  <div class="item" @click="this.$router.push('/')">返回首页</div>
-  <div class="item" @click="this.$router.push({ name: 'random' })">随机数组</div>
+  <div class="item" @click="go">返回首页</div>
+  <div class="item" @click="go('random')">随机数组</div>
   <router-view />
 </div>
 
 </template>
 
-<script setup>
+<script>
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+export default {
+  name: "App",
+
+  methods: {
+    go(name) {
+      this.$router.push({ name })
+    },
+  },
+};
 </script>
 
 <style>
