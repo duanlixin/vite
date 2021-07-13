@@ -1,6 +1,8 @@
 import { createRouter,createWebHistory} from "vue-router";
-import Random from './components/Random.vue'
 import Home from './components/Home.vue'
+import Random from './components/Random.vue'
+import Animation from './components/Animation.vue'
+
 // 路由信息
 const routes = [
     {
@@ -12,6 +14,11 @@ const routes = [
         path: "/random",
         name: "random",
         component: Random,
+    },
+    {
+        path: "/animation",
+        name: "animation",
+        component: Animation,
     },
 ];
 
